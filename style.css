@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+   font-family: 'Poppins', sans-serif;
+   list-style-type: none;
+    /* border: solid 1px red; */
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 8fr 2fr 4fr;
+    grid-template-areas: 'nav'
+    'two'
+    'three'
+    'four'
+    'footer'
+    ;
+}
+
+header{
+   padding-top: 6px;
+   grid-area: nav;
+}
+
+.section-two{
+    grid-area: two;
+}
+
+.section-four{
+    background: hsl(257, 27%, 26%) url(images/bg-boost-desktop.svg) no-repeat;
+    text-align: center;
+    grid-area: four;
+}
+
+.boot-section{
+    margin:50px 0;
+ 
+}
+
+h3{
+    color:hsl(0, 0%, 90%);
+    font-size: 2.0em;
+}
+
+
+footer{
+    background-color:  hsl(260, 8%, 14%);
+    grid-area: footer;
+    color:hsl(0, 0%, 90%);
+}
+
+footer ul li a{
+    color:hsl(0, 0%, 75%); 
+}
+
+footer section{
+    margin-top: 30px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.section-two-of-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+img[alt="logo-footer"]{
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+   
+}
+
+button:hover{
+    cursor: pointer;
+}
+/* nav img{
+    width: 1.2em;
+} */
+nav div{
+    display: flex;
+    gap: 40px;
+}
+nav ul li, ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: hsl(0, 100%, 2%);
+
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    margin-top: 10px;
+    flex-shrink: 1;
+}
+
+
+
+.section-three{
+    background-color:  hsl(0, 0%, 90%);
+    grid-area: three;
+    z-index: -1;
+}
+
+.section-two article{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 80px;
+}
+
+.section-two article img{
+    margin-right: 0;
+}
+
+figure{
+    background-color: hsl(0,0%,100%);
+    height: 240px;
+    width: 25%;
+    position: relative;
+}
+
+h1{
+    font-size: 3em;
+    line-height: 1.2;
+    font-weight: 700;
+   
+}
+
+.build-your-brand{
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 20px;
+}
+
+.get-started{
+    background-color:  hsl(180, 66%, 49%);
+    height: 50px;
+    width: 160px;
+    color: hsl(0,0%,100%);
+    font-weight: 400;
+    border: none;
+    border-radius: 32px;
+  
+}
+
+/* .shorten-it{
+    background-color:  hsl(180, 66%, 49%);
+    height: 40px;
+    width: 160px;
+    border: none;
+} */
+
+#sign-up{
+    border-radius: 32px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:  hsl(180, 66%, 49%);
+    color: hsl(0,0%,100%);
+    margin-top: -10px;
+
+}
+
+.form-create-short-link{
+    text-align: center;
+    margin-bottom: -30px;
+   
+}
+form{
+    background: hsl(257, 27%, 26%) url(images/bg-shorten-desktop.svg);
+    width: 90%;
+    margin: 0 0 0 79px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+form input{
+   width: 30%;
+   height: 2.5em;
+   padding: 20px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+}
+
+
+form button{
+    width: 9%;
+    height: 3em; 
+    background-color:  hsl(180, 66%, 49%);
+    border: none;
+    color:hsl(0,0%,100%);
+    font-style: 700;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.track-how-your-links{
+    text-align: center;
+    color: hsl(0, 0%, 75%);
+}
+
+
+img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
+    background-color:hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+}
+
+figcaption{
+    margin: 55px 0 0 10px;
+    font-weight: 700;
+}
+
+figure p{
+    margin: 10px 0 0 10px; 
+    color: hsl(0, 0%, 75%);
+}
+
+
+.cards-group{
+    margin: 20px 0 0 95px;
+    display: flex;
+    gap: 20px;
+}
+
+.second-figure{
+    margin-top: 50px;
+}
+
+.third-figure{
+    margin-top: 90px;
+}
+
