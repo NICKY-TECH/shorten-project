@@ -95,8 +95,13 @@ nav div{
 nav ul li, ul li a{
     list-style-type: none;
     text-decoration: none;
-    color: hsl(0, 100%, 2%);
+    color: hsl(0, 0%, 75%);
+    font-weight: 500;
 
+}
+
+nav ul li a:hover{
+    color: hsl(260, 8%, 14%);
 }
 
 nav ul{
@@ -173,7 +178,12 @@ h1{
     background-color:  hsl(180, 66%, 49%);
     color: hsl(0,0%,100%);
     margin-top: -10px;
+    font-weight: 500;
 
+}
+
+button:hover,#sign-up:hover{
+    background-color:  hsl(180, 66%, 70%);
 }
 
 .form-create-short-link{
@@ -249,6 +259,15 @@ figure p{
     margin: 20px 0 0 95px;
     display: flex;
     gap: 20px;
+}
+
+i:hover,footer ul li a:hover{
+    color: hsl(180, 66%, 49%);
+}
+
+i{
+    font-size: 1.5em;
+    color:hsl(0, 0%, 90%);
 }
 
 .second-figure{
