@@ -278,3 +278,11 @@ i{
     margin-top: 90px;
 }
 
+.red::placeholder{
+    color: red;
+}
+
+.border-red{
+    border: solid 1px red;
+}
+
