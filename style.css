@@ -203,19 +203,27 @@ form{
     text-align: center;
 }
 
-.shortened-link{
-    background-color: hsl(0,0%,100%);
+.shorten-link-container{
     width: 90%;
     text-align: center;
-    padding: 10px 0;
-    margin: 50px 0 0 79px;
     display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 79px;
+
+}
+
+.shortened-link{
+    background-color: hsl(0,0%,100%);
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    margin-bottom: 7px;
     justify-content: space-around;
 }
 
 .shorten-result{
     display: flex;
-   gap: 20px;
+    gap: 20px;
 }
 
 .shorten-result button{
@@ -230,10 +238,12 @@ form{
     border-top-left-radius: 4px;
 }
 /* 
-.copy-button:hover{
+// */
+.shorten-result button:hover{
     cursor: pointer;
     background-color:  hsl(180, 66%, 70%);
-} */
+    color: red;
+} 
 
 form input{
    width: 30%;
@@ -293,7 +303,7 @@ figure p{
 
 
 .cards-group{
-    margin: 20px 0 0 95px;
+    margin: 20px 0 25px 95px;
     display: flex;
     gap: 20px;
 }
