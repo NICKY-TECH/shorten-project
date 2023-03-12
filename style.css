@@ -82,9 +82,7 @@ nav{
    
 }
 
-button:hover{
-    cursor: pointer;
-}
+
 /* nav img{
     width: 1.2em;
 } */
@@ -127,6 +125,11 @@ nav ul li{
     justify-content: space-between;
     width: 90%;
     margin-left: 80px;
+}
+.error-message{
+    margin-left: -450px;
+    color: hsl(0, 87%, 67%);
+    display: none
 }
 
 .section-two article img{
@@ -184,6 +187,7 @@ h1{
 
 button:hover,#sign-up:hover{
     background-color:  hsl(180, 66%, 70%);
+    cursor: pointer;
 }
 
 .form-create-short-link{
@@ -199,6 +203,38 @@ form{
     text-align: center;
 }
 
+.shortened-link{
+    background-color: hsl(0,0%,100%);
+    width: 90%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 50px 0 0 79px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shorten-result{
+    display: flex;
+   gap: 20px;
+}
+
+.shorten-result button{
+    background-color:  hsl(180, 66%, 49%);
+    color: hsl(0,0%,100%);
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+/* 
+.copy-button:hover{
+    cursor: pointer;
+    background-color:  hsl(180, 66%, 70%);
+} */
+
 form input{
    width: 30%;
    height: 2.5em;
@@ -207,6 +243,7 @@ form input{
    border-bottom-left-radius: 5px;
    border-bottom-right-radius: 5px;
    border-top-left-radius: 5px;
+   outline:none;
    
 }
 
