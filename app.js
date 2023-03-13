@@ -11,11 +11,10 @@ const errorMessage=document.querySelector('.error-message');
 submitButton.addEventListener('click',(event)=>{
     event.preventDefault();
     if(inputField.value.length==0){
-        inputField.classList.add('red');
-        inputField.classList.add('border-red');
-        errorMessage.style.display='inline';
+        errorMessages(inputField,errorMessage);
 
-    }else{
+    }
+    else{
         async function shortenLink(){
         const link=inputField.value;
         let linkFound= await fetch(`https://api.shrtco.de/v2/shorten?url=${link}`);
@@ -44,18 +43,38 @@ submitButton.addEventListener('click',(event)=>{
         resultP.innerHTML=linkFound.result.short_link;
         shortenResult.prepend(resultP);
         let buttonCopy=document.createElement('button');
+        buttonCopy.classList.add('copy-button','copy-original-color');
         buttonCopy.innerHTML='copy';
         shortenResult.append(buttonCopy);
         shortenedLink.append(shortenResult);
         fragment.append(shortenedLink);
         shortenContainer.append(fragment);
-        console.log(fragment)
 
 
+        
+        }else if(linkFound.ok==false){
+            errorMessages(inputField,errorMessage);
         
         }
 
        }
-       shortenLink();
+       shortenLink().then(()=>{
+// copies only the first child write a code that checks which of the divs within the shorten container gave out the event.
+        const copyButton=document.querySelector('.copy-button');
+        copyButton.addEventListener('click',async(event)=>{
+            let copyText=event.target.parentNode.firstChild.innerHTML;
+          await navigator.clipboard.writeText(copyText);
+          copyButton.classList.remove('copy-original-color');
+          copyButton.classList.add('copied');
+          copyButton.innerHTML='Copied'
+        })
+       });
     }
 });
+
+function errorMessages(inputField,errorMessage){
+    inputField.classList.add('red');
+    inputField.classList.add('border-red');
+    errorMessage.style.display='inline';
+
+}

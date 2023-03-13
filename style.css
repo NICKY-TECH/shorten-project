@@ -117,7 +117,10 @@ nav ul li{
 .section-three{
     background-color:  hsl(0, 0%, 90%);
     grid-area: three;
-    z-index: -1;
+}
+
+.section-two{
+    z-index: 1;
 }
 
 .section-two article{
@@ -185,7 +188,7 @@ h1{
 
 }
 
-button:hover,#sign-up:hover{
+.button:hover,#sign-up:hover{
     background-color:  hsl(180, 66%, 70%);
     cursor: pointer;
 }
@@ -226,8 +229,8 @@ form{
     gap: 20px;
 }
 
-.shorten-result button{
-    background-color:  hsl(180, 66%, 49%);
+
+.copy-button{
     color: hsl(0,0%,100%);
     border: none;
     height: 30px;
@@ -237,13 +240,19 @@ form{
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
 }
-/* 
-// */
-.shorten-result button:hover{
+
+.copy-original-color{
+    background-color:  hsl(180, 66%, 49%);
+}
+
+.copy-original-color:hover{
     cursor: pointer;
     background-color:  hsl(180, 66%, 70%);
-    color: red;
 } 
+
+.copied{
+    background-color: hsl(257, 27%, 26%);
+}
 
 form input{
    width: 30%;
