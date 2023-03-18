@@ -373,7 +373,7 @@ i{
     img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
         padding: 20px;
         position: absolute;
-        top: 50%;
+        top: -30;
         left: 50%;
         transform: translate(-50%, -50%);
     }
