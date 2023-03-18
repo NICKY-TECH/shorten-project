@@ -372,7 +372,6 @@ i{
         margin: auto;
     }
     img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
-        padding: 20px;
         position: absolute;
         top: -30px;
         text-align: center;
