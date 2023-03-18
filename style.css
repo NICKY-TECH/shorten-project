@@ -7,10 +7,6 @@
     /* border: solid 1px red; */
 }
 
-body,html{
-    width: 100%;
-}
-
 main{
     width: 100%;
     display: grid;
@@ -349,18 +345,17 @@ i{
 @media screen and (max-width:600px) {
     h1{
         font-size: 2em;
+        font-weight: 500;
     }
     .build-your-brand{
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 
    .section-two article{
-    width: 100%;
-    margin-left: 50px;
+    width: inherit;
+    margin-left: 0;
    }
-
     
-
 
 }
 
