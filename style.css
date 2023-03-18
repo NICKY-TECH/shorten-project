@@ -343,9 +343,12 @@ i{
 }
 
 @media screen and (max-width:600px) {
-    /* h1{
-        font-size: 2.3em;
-    } */
+    h1{
+        font-size: 1.9em;
+    }
+    img[src='illustration']{
+        width: 60%;
+    }
 
 }
 
