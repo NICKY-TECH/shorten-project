@@ -346,6 +346,10 @@ i{
     article,.section-three{
         margin: 5px auto;
     }
+
+    article{
+        flex-direction: column;
+    }
     h1{
         font-size: 1.4em;
     }
