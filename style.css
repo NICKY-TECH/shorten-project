@@ -360,8 +360,8 @@ i{
     }
 
     .cards-group{
-        margin: 20px 0 25px 60px;
-        display: flex;
+        margin: 20px 0 25px 30px;
+        gap: 8px;
     }
     
 }
