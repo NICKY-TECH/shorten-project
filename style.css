@@ -359,7 +359,7 @@ i{
 
 }
 
-@media screen  and (min-width: 1000px) and (max-width: 1000px){
+@media screen  and (min-width: 1000px) and (max-width: 1200px){
       h1{
         font-size: 1.3em;
     }
