@@ -344,10 +344,6 @@ i{
 
 @media screen and (max-width: 492px){
 
-    .image-illustration{
-        display: none;
-        
-    }
     h1{
         font-size: 1.4em;
     }
