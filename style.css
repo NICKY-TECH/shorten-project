@@ -344,8 +344,9 @@ i{
 
 @media screen and (max-width: 492px){
 
-    article{
-        flex-direction: column;
+    article img{
+        display: none;
+        
     }
     h1{
         font-size: 1.4em;
@@ -371,10 +372,10 @@ i{
     figure img{
         margin: auto;
     }
-    img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
+    /* img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
         position: absolute;
         top: -30px;
-        text-align: center;
+        text-align: center; */
     }
-}
+
 
