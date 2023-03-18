@@ -342,19 +342,14 @@ i{
     border: solid 1px red;
 }
 
-@media screen and (max-width:491px) {
-
-h1{
-    font-size: 1.5em;
-}
-.section-two article img{
-    width: 400px;
-}
-
-
-
-
+@media screen and (max-width: 491px) {
+  
+.section-two article{
+    display: flex;
+    justify-content:space-evenly;
+    width: 90%;
+    margin-left: 80px;
+}  
     
-
 }
 
