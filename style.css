@@ -344,11 +344,11 @@ i{
 
 @media screen and (max-width:600px) {
     h1{
-        font-size: 1.3em;
-        font-weight: 400;
+        font-size: 1.6em;
+        font-weight: 500;
     }
     .section-two article img{
-        margin-right: -170px;
+        width: 500px;
      
 
     }
