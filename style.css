@@ -133,7 +133,7 @@ nav ul li{
     /* margin-left: -450px; */
     color: hsl(0, 87%, 67%);
     display: none;
-    text-align: center;
+    align-self:flex-start;
 }
 
 .section-two article img{
@@ -197,8 +197,8 @@ h1{
 .form-create-short-link{
     text-align: center;
     margin-bottom: -30px;
-    /* display: flex;
-    justify-content: center; */
+     display: flex;
+    /*justify-content: center; */
    
 }
 form{
