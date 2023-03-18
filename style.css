@@ -346,8 +346,9 @@ i{
     h1{
         font-size: 1.9em;
     }
-    .section-two article{
-        gap: 30px
+    .section-two article img{
+        width: calc(0.4em);
+     
 
     }
 
