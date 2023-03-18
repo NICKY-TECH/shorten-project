@@ -343,9 +343,12 @@ i{
 }
 
 @media screen and (max-width: 492px){
+    h1{
+        font-size: 1.2em;
+    }
     figure{
         width: 70%;
-        height: 350px;
+        height: 330px;
     }
     
 }
