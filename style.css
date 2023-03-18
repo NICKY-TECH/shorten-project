@@ -347,8 +347,13 @@ i{
         width: 80%;
     }
     h1{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
+   
+    .build-your-brand{
+        font-size: 1.6em;
+    }
+
     figure{
         width: 70%;
         height: 330px;
