@@ -342,10 +342,10 @@ i{
     border: solid 1px red;
 }
 
-@media screen and (min-width: 492px){
+@media screen and (max-width: 492px){
     figure{
-        width: 80%;
-        height: 800px;
+        width: 60%;
+        height: 400px;
     }
     
 }
