@@ -132,7 +132,8 @@ nav ul li{
 .error-message{
     /* margin-left: -450px; */
     color: hsl(0, 87%, 67%);
-    display: none
+    display: none;
+    text-align: center;
 }
 
 .section-two article img{
@@ -196,8 +197,8 @@ h1{
 .form-create-short-link{
     text-align: center;
     margin-bottom: -30px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
    
 }
 form{
@@ -355,22 +356,6 @@ i{
          color: hsl(0, 0%, 50%);
     }
 
-    /* .error-message{
-    margin-left: 200px;
-    } */
-
-}
-
-/* @media screen  and (min-width: 1000px) and (max-width: 1200px){
-      h1{
-        font-size: 1.3em;
-    }
-   
-    .build-your-brand{
-        font-size: 1.1em;
-         color: hsl(0, 0%, 50%);
-    }
-     */
-/* } */
+    } 
 
 
