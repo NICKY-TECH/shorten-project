@@ -352,6 +352,8 @@ i{
     flex: 1;
 }  
 
+
+
 .first-part-of-the-more-than-section{
     margin: auto;
     flex: 1;
@@ -359,6 +361,7 @@ i{
 
 .image-illustration{
     flex-shrink: 1;
+    width: 50%;
 }
 main{
     display: grid;
