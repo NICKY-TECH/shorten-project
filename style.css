@@ -347,8 +347,8 @@ i{
 .section-two article{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 90%;
+    gap: 5px;
+    width: 80%;
     margin: 0;
 }  
 
