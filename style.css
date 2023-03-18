@@ -356,26 +356,6 @@ i{
         font-size: 0.9em;
     }
 
-    figure{
-        width: 290px;
-        height: 310px;
-    }
-
-    .cards-group{
-        margin: 20px 0 25px 10px;
-        gap: 8px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    figure img{
-        margin: auto;
-    }
-    /* img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
-        position: absolute;
-        top: -30px;
-        text-align: center; */
-    }
+}
 
 
