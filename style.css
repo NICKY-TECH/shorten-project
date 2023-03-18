@@ -343,9 +343,9 @@ i{
 }
 
 @media screen and (max-width:600px) {
-    h1{
+    /* h1{
         font-size: 2.3em;
-    }
+    } */
 
 }
 
