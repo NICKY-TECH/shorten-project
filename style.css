@@ -343,8 +343,12 @@ i{
 }
 
 @media screen and (max-width:491px) {
+
+h1{
+    font-size: 1.5em;
+}
 .section-two article img{
-    width: 500px;
+    width: 400px;
 }
 
 
