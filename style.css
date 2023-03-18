@@ -343,17 +343,11 @@ i{
 }
 
 @media screen and (max-width:491px) {
-    h1{
-        font-size: 2.6em;
-        font-weight: 500;
-    }
-    .build-your-brand{
-        font-size: 0.7em;
-    }
+  .sv{
+    width: 230px;
+  }
 
-   .section-two article{
-    margin-left: 20px;
-   }
+
 
 
     
