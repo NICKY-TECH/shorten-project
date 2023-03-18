@@ -130,7 +130,7 @@ nav ul li{
     margin-left: 80px;
 }
 .error-message{
-    margin-left: -450px;
+    /* margin-left: -450px; */
     color: hsl(0, 87%, 67%);
     display: none
 }
@@ -196,6 +196,8 @@ h1{
 .form-create-short-link{
     text-align: center;
     margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
    
 }
 form{
@@ -353,9 +355,9 @@ i{
          color: hsl(0, 0%, 50%);
     }
 
-    .error-message{
+    /* .error-message{
     margin-left: 200px;
-    }
+    } */
 
 }
 
