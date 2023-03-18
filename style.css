@@ -363,6 +363,8 @@ i{
         margin: 20px 0 25px 10px;
         gap: 8px;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
