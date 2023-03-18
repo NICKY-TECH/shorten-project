@@ -359,4 +359,16 @@ i{
 
 }
 
+@media screen  and (min-width: 1000px) and (max-width: 1000px){
+      h1{
+        font-size: 1.3em;
+    }
+   
+    .build-your-brand{
+        font-size: 1.1em;
+         color: hsl(0, 0%, 50%);
+    }
+    
+}
+
 
