@@ -342,6 +342,16 @@ i{
     border: solid 1px red;
 }
 
+@media screen and (max-width: 492px){
 
+    h1{
+        font-size: 1.4em;
+    }
+   
+    .build-your-brand{
+        font-size: 0.5em;
+    }
+
+}
 
 
