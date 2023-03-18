@@ -344,7 +344,7 @@ i{
 
 @media screen and (max-width: 492px){
 
-    article img{
+    .imge-illustration{
         display: none;
         
     }
