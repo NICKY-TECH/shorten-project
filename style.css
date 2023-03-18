@@ -347,9 +347,9 @@ i{
 .section-two article{
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    gap: 10px;
     width: 90%;
-    margin: auto;
+    margin: 0;
 }  
     
 }
