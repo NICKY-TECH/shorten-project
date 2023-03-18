@@ -342,7 +342,7 @@ i{
     border: solid 1px red;
 }
 
-@media screen and (max-width: 492px){
+@media screen and (max-width: 1000px){
 
     h1{
         font-size: 1.3em;
