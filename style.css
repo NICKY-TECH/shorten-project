@@ -347,7 +347,7 @@ i{
 .section-two article{
     flex-direction: column;
     gap: 5px;
-    width: 80%;
+    width: 70%;
     margin: 0;
     flex: 1;
 }  
@@ -357,11 +357,6 @@ i{
 .first-part-of-the-more-than-section{
     margin: auto;
     flex: 1;
-}
-
-.image-illustration{
-    flex-shrink: 1;
-    width: 50%;
 }
 main{
     display: grid;
