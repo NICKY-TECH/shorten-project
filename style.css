@@ -356,7 +356,11 @@ i{
     }
 
     .image-illustration{
-        width: 50%;
+        width: 30%;
+    }
+
+    .image-illustration img{
+        width: 100%
     }
     
 
