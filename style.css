@@ -344,7 +344,7 @@ i{
 
 @media screen and (max-width: 492px){
     article{
-        width: 80%;
+        margin: 5px auto;
     }
     h1{
         font-size: 1.4em;
