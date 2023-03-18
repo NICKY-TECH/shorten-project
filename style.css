@@ -374,8 +374,7 @@ i{
         padding: 20px;
         position: absolute;
         top: -30px;
-        left: auto;
-        right: auto;
+        margin: auto 0;
     }
 }
 
