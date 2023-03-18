@@ -4,6 +4,7 @@
     padding: 0;
    font-family: 'Poppins', sans-serif;
    list-style-type: none;
+   overflow: hidden;
     /* border: solid 1px red; */
 }
 
@@ -354,6 +355,8 @@ i{
     .image-illustration{
         width: 50%;
     }
+    
+
 
 }
 
