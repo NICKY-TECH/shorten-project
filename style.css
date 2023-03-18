@@ -343,9 +343,9 @@ i{
 }
 
 @media screen and (max-width:491px) {
-  .sv{
-    width: 10px;
-  }
+.section-two article img{
+    width: 500px;
+}
 
 
 
