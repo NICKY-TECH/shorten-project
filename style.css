@@ -344,8 +344,9 @@ i{
 
 @media screen and (max-width: 492px){
     figure{
-        width: 60%;
-        height: 400px;
+        width: 80%;
+        height: 800px;
+        background-color: pink;
     }
     
 }
