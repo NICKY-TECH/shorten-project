@@ -343,11 +343,7 @@ i{
 }
 
 @media screen and (max-width:400px) {
-    h1{
-        font-size: 2.3em;
-    }
-
-    .section-two article{
+.section-two{
     flex-direction: column;
     background-color: red;
     }
