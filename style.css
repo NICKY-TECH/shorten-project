@@ -358,6 +358,10 @@ i{
         width: 70%;
         height: 310px;
     }
+
+    .cards-group{
+        margin: 20px 0 25px 60px;
+        display: flex;
     
 }
 
