@@ -345,15 +345,20 @@ i{
 @media screen and (max-width: 491px) {
   
 .section-two article{
-    display: flex;
     flex-direction: column;
     gap: 5px;
     width: 80%;
     margin: 0;
+    flex: 1;
 }  
 
 .first-part-of-the-more-than-section{
     margin: auto;
+    flex: 1;
+}
+
+.image-illustration{
+    flex-shrink: 1;
 }
     
 }
