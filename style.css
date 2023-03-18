@@ -367,5 +367,8 @@ i{
         align-items: center;
     }
     
+    img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
+        margin: auto;
+    }
 }
 
