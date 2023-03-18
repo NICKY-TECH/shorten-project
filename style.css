@@ -371,11 +371,11 @@ i{
         margin: auto;
     }
     img[alt="brand-recognition"],img[alt="detailed"],img[alt="customizable"]{
-        padding: 30px;
+        padding: 20px;
         position: absolute;
-        top: -30px;
-        left: 10px;
-        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
