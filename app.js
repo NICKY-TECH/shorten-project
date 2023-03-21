@@ -96,26 +96,22 @@ async function onReloadLinkFormation(){
         }
         shortenContainer.append(fragment);
       }
-      else{
+      else {
         let fragment= new DocumentFragment();
         for(let i=localStorage.length; i>0; i--){
- let indexFound=localStorage.key(i);
-  let getData= localStorage.getItem(indexFound);
-
-  console.log(i)
-  console.log(getData)
-          
+            let indexFound=localStorage.key(i);
+            let getData=JSON.parse(localStorage.getItem(`${indexFound}`));
     let shortenedLink=document.createElement('div');
     shortenedLink.classList.add('shortened-link');
     let original=document.createElement('p');
     original.classList.add('original-link');
-    // original.innerHTML=getData.originalLink;
+    original.innerHTML=getData.originalLink;
     shortenedLink.prepend(original);
     let shortenResult=document.createElement('div');
     shortenResult.classList.add('shorten-result');
     let resultP=document.createElement('p');
     resultP.classList.add('result-of-shortened-link');
-    // resultP.innerHTML=getData.shortLink;
+    resultP.innerHTML=getData.shortLink;
     shortenResult.prepend(resultP);
     let buttonCopy=document.createElement('button');
     buttonCopy.classList.add('copy-button','copy-original-color');
@@ -123,8 +119,9 @@ async function onReloadLinkFormation(){
     shortenResult.append(buttonCopy);
     shortenedLink.append(shortenResult);
     fragment.append(shortenedLink);
-        }
     }
+    shortenContainer.append(fragment);
+      }
     
 
 }
